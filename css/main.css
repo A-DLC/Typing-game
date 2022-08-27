@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #023047;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+img {
+  width: 300px;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #602368;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px solid rgba(38, 37, 37, 0.3);
+}
+
+form select {
+  background-color: transparent;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  color: #faa307;
+  cursor: pointer;
+}
+
+label {
+  color: #a7c5e3;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+}
+
+h2 {
+  color: #a7c5e3;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 30px;
+}
+
+p {
+  color: #a7c5e3;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.word {
+  color: #faa307;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.container {
+  min-width: 500px;
+  padding: 20px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #a7c5e3;
+  margin: 10px;
+  background-color: transparent;
+  color: #faa307;
+  font-weight: bold;
+}
+
+.score-container {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.time,
+.score {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 2px;
+  color: #faa307;
+}
+
+.end-game-container {
+  min-width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.play-again-btn {
+  background-color: #ee0505;
+  border-radius: 5px;
+  border: 1px solid #a7c5e3;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.over {
+  font-size: 40px;
+  font-weight: bold;
+}

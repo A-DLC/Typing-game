@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Typing Game</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <img
+        src="https://assets3.cbsnewsstatic.com/hub/i/2022/06/13/1995d83c-c646-42f8-8687-8d11ab079064/keyboardheader.png"
+        alt="game img"
+      />
+      <h2>Typing Game</h2>
+      <!-- form settings  -->
+      <form class="settingsForm">
+        <div>
+          <label>Difficulty</label>
+          <select class="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+      </form>
+      <!-- form settings end  -->
+
+      <!-- typing container -->
+      <div class="container">
+        <p>Type the following</p>
+        <h1 class="word">word here</h1>
+        <input class="text" type="text" placeholder="Type the word here" />
+
+        <!-- Scoreboard -->
+        <div class="score-container">
+          <p>Score: <span class="score">00</span></p>
+          <p>Time left: <span class="time">00</span></p>
+        </div>
+      </div>
+
+      <!-- game over -->
+      <div class="end-game-container">
+        <!-- <p class="over">Game Over</p>
+        <p>Your Score: <span class="score">00</span></p>
+        <button class="play-again-btn">Play Again</button> -->
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
